@@ -1,0 +1,24 @@
+5 files - 
+
+    Movie.h
+    Movie.cpp
+    MovieList.h
+    MovieList.cpp
+    Main.cpp
+
+A movie object will have 3 attributes -
+
+    name,
+    release year,
+    rating,
+    watch count,
+
+MovieList will be vector of Movie object. Main file will be connected with MovieList, not Movie.
+
+MovieList functions -
+
+    display movie list,
+    add movie,
+    decline adding duplicate movie,
+    watch count increment,
+    decline watch increment if movie doesn't exist in the list  
